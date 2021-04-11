@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Qty</th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+
+    <tr>
+        <td><input type="text" name="product" id="learn" data-price="39.99"></td>
+        <td><label for="learn">Learning jQuery</label></td>
+        <td>$39.99</td>
+        <td id="subtotal1"></td>
+    </tr>
+    <tr>
+        <td><input type="text" name="product" id="donation" data-price="14.99"></td>
+        <td><label for="donation">jquery Donation</label></td>
+        <td>$14.99</td>
+        <td id="subtotal2"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="total"></td>
+    </tr>
+</table>
+
+<button>calculate totals</button>
+
+</body>
+</html>

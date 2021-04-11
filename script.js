@@ -1,7 +1,6 @@
 $(document).ready(function (){
-    $("button").on("click", calcTotal);
-    $("input#learn").on("change", calcLearn);
-    $("input#donation").on("change", calcDono);
+    $("input#learn").on("change", calcLearn, calcTotal);
+    $("input#donation").on("change", calcDono, calcTotal);
 });
 
 function calcLearn(event){
